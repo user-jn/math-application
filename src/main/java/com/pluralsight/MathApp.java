@@ -51,5 +51,22 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The square root is " + squareRoot);
 
+        // Question 5:
+        // declare variables here
+        double x1 = 5;
+        double y1 = 10;
+        double x2 = 85;
+        double y2 = 50;
+        double distance;
+
+        // then code solution
+        distance = Math.sqrt(
+                Math.pow(x2 - x1, 2) +
+                        Math.pow(y2 - y1, 2)
+        );
+
+        // then use System.out.println() to display results
+        System.out.println("The distance is " + distance);
+
     }
 }
