@@ -104,7 +104,7 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The number of minutes in 24 days is " + totalMinutes);
 
-        // BONUS:
+        // BONUS: how many milliseconds
         // declare variables here
         int secondsPerMinute = 60;
         int millisecondsPerSecond = 1000;
@@ -122,7 +122,7 @@ public class MathApp {
 
 
 
-        // example
+
 
 
     }
