@@ -29,7 +29,16 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The lowest price is " + lowestPrice);
 
+        // Question 3:
+        // declare variables here
+        double radius = 7.25;
+        double circleArea;
 
+        // then code solution
+        circleArea = Math.PI * Math.pow(radius, 2);
+
+        // then use System.out.println() to display results
+        System.out.println("The area of the circle is " + circleArea);
 
     }
 }
