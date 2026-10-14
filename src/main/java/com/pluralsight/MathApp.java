@@ -79,7 +79,15 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The absolute value is " + absoluteValue);
 
+        // Question 7:
+        // declare variables here
+        double randomNumber;
 
+        // then code solution
+        randomNumber = Math.random();
+
+        // then use System.out.println() to display results
+        System.out.println("The random number is " + randomNumber);
 
     }
 }
