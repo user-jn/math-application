@@ -68,5 +68,18 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The distance is " + distance);
 
+        // Question 6:
+        // declare variables here
+        double negativeNumber = -3.8;
+        double absoluteValue;
+
+        // then code solution
+        absoluteValue = Math.abs(negativeNumber);
+
+        // then use System.out.println() to display results
+        System.out.println("The absolute value is " + absoluteValue);
+
+
+
     }
 }
