@@ -40,5 +40,15 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The area of the circle is " + circleArea);
 
+        // Question 4:
+        // declare variables here
+        double number = 5.0;
+        double squareRoot;
+
+        // then code solution
+        squareRoot = Math.sqrt(number);
+
+        // then use System.out.println() to display results
+        System.out.println("The square root is " + squareRoot);
     }
 }
