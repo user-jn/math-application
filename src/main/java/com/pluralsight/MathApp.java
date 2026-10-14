@@ -50,5 +50,6 @@ public class MathApp {
 
         // then use System.out.println() to display results
         System.out.println("The square root is " + squareRoot);
+
     }
 }
