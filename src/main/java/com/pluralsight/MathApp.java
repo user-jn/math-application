@@ -18,6 +18,16 @@ public class MathApp {
         // REPEAT FOR NEXT EXERCISE
 
         // Question 2
+        // declare variables here
+        double carPrice = 30000;
+        double truckPrice = 45000;
+        double lowestPrice;
+
+        // then code solution
+        lowestPrice = Math.min(carPrice, truckPrice);
+
+        // then use System.out.println() to display results
+        System.out.println("The lowest price is " + lowestPrice);
 
 
 
