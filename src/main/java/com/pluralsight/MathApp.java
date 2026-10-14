@@ -89,5 +89,20 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The random number is " + randomNumber);
 
+        // Question 8:
+        // declare variables here
+        int days = 24;
+        int hoursPerDay = 24;
+        int minutesPerHour = 60;
+        int totalHours;
+        int totalMinutes;
+
+        // then code solution
+        totalHours = days * hoursPerDay;
+        totalMinutes = totalHours * minutesPerHour;
+
+        // then use System.out.println() to display results
+        System.out.println("The number of minutes in 24 days is " + totalMinutes);
+
     }
 }
